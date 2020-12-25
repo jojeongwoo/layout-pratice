@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout6</title>
+    <style>
+        *{padding: 0; margin: 0;}
+        #wrap{text-align: center; font-size: 20px; color: #fff; text-transform: uppercase;}
+        #header{line-height : 140px; height: 140px; background: #ffe1e4;}
+        #banner{line-height : 450px; height: 450px; background: #fbd6e3;}
+        #content{line-height : 950px; height: 950px; background: #ead5ee; }
+        #footer{line-height : 220px; height: 220px; background: #d6ebfd;}
+
+        .contaniner{width: 1100px; margin : 0 auto; height: inherit; background: rgba(0, 0, 0, 0.3);}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="contaniner">header</div>
+        </div>
+        <div id="banner">
+            <div class="contaniner">banner</div>
+        </div>
+        <div id="content">
+            <div class="contaniner">content</div>
+        </div>
+        <div id="footer">
+            <div class="contaniner">footer</div>
+        </div>
+
+        <!--id는 한 번 class는 여러 번 / inherit은 상속 -->
+    </div>
+</body>
+</html>
